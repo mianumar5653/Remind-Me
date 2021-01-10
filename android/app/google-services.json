@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "521343829270",
+    "project_id": "waterreminder-deb40",
+    "storage_bucket": "waterreminder-deb40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521343829270:android:d33c74d7257402e5bbbc37",
+        "android_client_info": {
+          "package_name": "com.wishes.reminder_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521343829270-5i99tavlg28jga5h83rb59dr9m7e4l5k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wishes.reminder_app",
+            "certificate_hash": "d13fd30366f893ad6dc3e20a9cefc9ba27c24291"
+          }
+        },
+        {
+          "client_id": "521343829270-mh1c22766o73priegqioh47ar39nt6id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaDBbWpl8lpMJ2im-dMlACPsB1gXDEXmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521343829270-mh1c22766o73priegqioh47ar39nt6id.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
