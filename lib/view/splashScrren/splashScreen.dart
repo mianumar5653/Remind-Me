@@ -5,10 +5,9 @@ import 'package:flutter/widgets.dart';
 import 'dart:math';
 
 import 'package:get/get.dart';
-import 'package:reminder_app/modal/walkThroughScreen/walkThroughScreen.dart';
-import 'package:reminder_app/themes.dart';
-import 'package:reminder_app/modal/widget/sizeConfig.dart';
-import 'package:reminder_app/themes.dart';
+import 'package:reminder_app/view/walkThroughScreen/walkThroughScreen.dart';
+import 'package:reminder_app/modal/screenSizing//sizeConfig.dart';
+import 'package:reminder_app/modal/themes/themes.dart';
 
 class SplashScreen extends StatefulWidget {
   final TextStyle textStyle;

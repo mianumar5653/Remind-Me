@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:reminder_app/modal/homeScreen.dart';
-import 'package:reminder_app/modal/widget/allWidgets.dart';
-import 'package:reminder_app/modal/widget/sizeConfig.dart';
-import 'package:reminder_app/themes.dart';
+import 'package:reminder_app/view/homeScreen.dart';
+import 'package:reminder_app/viewModal/allWidgets.dart';
+import 'package:reminder_app/modal/screenSizing//sizeConfig.dart';
+import 'package:reminder_app/modal/themes/themes.dart';
 
 class WalkThroughScreen extends StatefulWidget {
   @override

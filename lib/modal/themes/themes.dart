@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:reminder_app/modal/widget/sizeConfig.dart';
+import 'package:reminder_app/modal/screenSizing//sizeConfig.dart';
 Color darkGreyColor=Colors.grey[900];
 Color lightGreyColor=Colors.grey[100];
 const Color primaryColor=Colors.blueAccent;

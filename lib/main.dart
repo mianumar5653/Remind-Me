@@ -3,9 +3,9 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:reminder_app/modal/waterReminderScreen.dart';
-import 'package:reminder_app/theme_services.dart';
-import 'package:reminder_app/themes.dart';
+import 'package:reminder_app/view/waterReminderScreen.dart';
+import 'package:reminder_app/modal/themes/theme_services.dart';
+import 'package:reminder_app/modal/themes/themes.dart';
 bool USE_FIRESTORE_EMULATOR = false;
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

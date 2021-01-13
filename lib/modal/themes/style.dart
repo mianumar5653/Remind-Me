@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:reminder_app/modal/widget/sizeConfig.dart';
-import 'package:reminder_app/themes.dart';
+import 'package:reminder_app/modal/screenSizing//sizeConfig.dart';
+import 'package:reminder_app/modal/themes/themes.dart';
 
 const TextStyle TEXT_STYLE_HOME=TextStyle(fontWeight: FontWeight.w900,fontSize: 40,color: WHITE_COLORS);
 const TextStyle BUTTON_TEXT_STYLE_WHITE=TextStyle(fontWeight: FontWeight.w900,fontSize: 25,color: WHITE_COLORS);

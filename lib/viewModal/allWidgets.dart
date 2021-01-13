@@ -1,8 +1,8 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:reminder_app/modal/widget/sizeConfig.dart';
-import 'package:reminder_app/themes.dart';
+import 'package:reminder_app/modal/screenSizing//sizeConfig.dart';
+import 'package:reminder_app/modal/themes/themes.dart';
 import 'package:get/get.dart';
 Widget text(String text, TextStyle style) {
   return Text("$text", style: style);

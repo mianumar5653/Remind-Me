@@ -2,14 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:get/get.dart';
-import 'package:get_storage/get_storage.dart';
-import 'package:reminder_app/constants/style.dart';
-import 'package:reminder_app/modal/profile/viewProfile.dart';
-import 'package:reminder_app/modal/walkThroughScreen/walkThroughScreen.dart';
-import 'package:reminder_app/modal/widget/allWidgets.dart';
-import 'package:reminder_app/modal/widget/sizeConfig.dart';
-import 'package:reminder_app/theme_services.dart';
-import 'package:reminder_app/themes.dart';
+import 'package:reminder_app/view/walkThroughScreen/walkThroughScreen.dart';
+import 'package:reminder_app/viewModal/allWidgets.dart';
+import 'package:reminder_app/modal/screenSizing//sizeConfig.dart';
+import 'package:reminder_app/modal/themes/theme_services.dart';
+import 'package:reminder_app/modal/themes/themes.dart';
 
 class HomeScreen extends StatefulWidget {
   String name;
@@ -168,7 +165,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       switch (value) {
                         case "Edit Profile":
                           {
-                            Get.to(ViewProfile());
+                            // Get.to(ViewProfile());
                             break;
                           }
                         case "Setting":
